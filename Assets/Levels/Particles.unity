@@ -276,3 +276,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2066090727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2066090729}
+  - component: {fileID: 2066090728}
+  m_Layer: 0
+  m_Name: NucleonSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2066090728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066090727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16881d947ec30544fa6c9c7d2dff5f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeBetweenSpawns: 0.05
+  SpawnDistance: 15
+  NucleonPrefabs:
+  - {fileID: 114881768819424808, guid: 1bcf3a56bbe440541b799f1b321e69ff, type: 2}
+  - {fileID: 114648961853953886, guid: 3c959545d21b48849b800e7e7d413b1d, type: 2}
+  - {fileID: 114500145646012922, guid: f2b5d4f9371197f4dab90e338f53928c, type: 2}
+--- !u!4 &2066090729
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066090727}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.378152, y: 0.0065153358, z: 1.599251}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
